@@ -5,15 +5,21 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Welcome to Spring Web MVC project</title>
+        <title>Nuevo</title>
+        <script>
+            function hola(){
+                alert('Buu!!!!');
+            }
+        </script>
     </head>
 
-    <body>
+    <body onload="hola()">
+        <>
         <p>Hola mundo :)</p>
         <p><i>To display a different welcome page for this project, modify</i>
-            <tt>index.jsp</tt> <i>, or create your own welcome page then change
+          <tt>index.jsp</tt> <i>, or create your own welcome page then change
                 the redirection in</i> <tt>redirect.jsp</tt> <i>to point to the new
                 welcome page and also update the welcome-file setting in</i>
-            <tt>web.xml</tt>.</p>
+            <tt>web.xml</tt>.</p>  
     </body>
 </html>
